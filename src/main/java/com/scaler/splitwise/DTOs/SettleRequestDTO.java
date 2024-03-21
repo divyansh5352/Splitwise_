@@ -1,2 +1,10 @@
-package com.scaler.splitwise.DTOs;public class SettleRequestDTO {
+package com.scaler.splitwise.DTOs;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class SettleRequestDTO {
+    private Long GroupID;
 }
